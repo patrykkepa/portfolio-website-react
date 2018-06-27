@@ -4,9 +4,9 @@ import '../css/components/work.css';
 
 const Work = (props) => {
     return (
-        <footer>
+        <section>
             This is a Work
-        </footer>
+        </section>
     )
 }
 

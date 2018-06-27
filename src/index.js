@@ -14,7 +14,7 @@ class App extends React.Component {
     render() {
         return (
             <Router>
-                <div>
+                <div class="container">
                     <Nav />
                     <Main />
                     <Footer />

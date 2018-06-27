@@ -4,9 +4,9 @@ import '../css/components/welcome.css';
 
 const Welcome = (props) => {
     return (
-        <footer>
+        <section>
             This is a Welcome
-        </footer>
+        </section>
     )
 }
 

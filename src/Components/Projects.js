@@ -4,9 +4,9 @@ import '../css/components/projects.css';
 
 const Projects = (props) => {
     return (
-        <footer>
+        <section>
             This is a Projects
-        </footer>
+        </section>
     )
 }
 
