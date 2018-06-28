@@ -1,0 +1,26 @@
+// Mixins
+
+
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin flex-column-spacebetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@mixin flex-column-spacearound {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
