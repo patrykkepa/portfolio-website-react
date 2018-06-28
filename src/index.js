@@ -9,11 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 
 
-import Nav from './Components/Nav';
-import Main from './Components/Main';
-import Footer from './Components/Footer';
+import Nav from './Components/Nav/Nav';
+import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 
-import './css/style.css';
+import './index.css';
 
 library.add(fab);
 

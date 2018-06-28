@@ -1,0 +1,19 @@
+#main {
+  transform: translateX(0px);
+  opacity: 1; }
+
+main {
+  text-align: left;
+  min-height: 100vh;
+  max-width: 810px;
+  padding: 100px 20px 0 20px;
+  margin: 0 auto; }
+  main h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 700; }
+  main p {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 40px 0 100px 0; }
