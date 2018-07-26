@@ -7,7 +7,7 @@ main {
     text-align: left;
     min-height: 100vh;
     max-width: 810px;
-    padding: 100px 20px 0 20px;
+    padding: 100px 0 0 0 ;
     margin: 0 auto;
     // background: rgba(0, 0, 0, 0.02);
 
@@ -18,9 +18,10 @@ main {
     }
     p {
         font-family: 'Merriweather', serif;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
-        margin: 40px 0 100px 0;
+        margin: 20px 0 20px 0;
+        line-height: 45px;
     }
     
 }

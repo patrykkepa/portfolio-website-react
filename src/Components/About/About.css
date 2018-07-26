@@ -6,14 +6,19 @@
   .sectionAbout .e-about {
     display: flex;
     flex-direction: row;
-    justify-content: left; }
+    justify-content: left;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .sectionAbout .e-about-left {
-    width: 30%;
-    padding: 10px;
+    width: auto;
     text-align: center; }
   .sectionAbout .e-about-right {
-    width: 70%;
-    padding: 10px; }
+    width: 100%;
+    padding: 10px 0; }
+  .sectionAbout .fas {
+    font-size: 50px;
+    margin: 0 40px 20px 0;
+    color: #ff0069; }
   .sectionAbout .elo {
     font-size: 50px;
     background: -webkit-linear-gradient(110deg, #9586a6, #d7706d);

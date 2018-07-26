@@ -14,7 +14,7 @@ $(document).ready(function() {
             'background': 'none',
             '-webkit-background-clip': 'text',
             '-webkit-text-fill-color': 'white',
-            'transform': 'rotateY(0deg)',
+            // 'transform': 'rotateY(0deg)',
             'transition': 'all 0ms'
         });
         
@@ -23,8 +23,8 @@ $(document).ready(function() {
     $('.e-link-section').each(function(){
         $(this).on('click', () => {
             $(this).css({
-                'transform': 'rotateY(360deg)',
-                'background': '-webkit-linear-gradient(110deg,#9586a6,#d7706d)',
+                // 'transform': 'rotateY(360deg)',
+                'background': 'rgba(255, 0, 105, 1)',
                 '-webkit-background-clip': 'text',
                 '-webkit-text-fill-color': 'transparent',
                 'transition': 'all 400ms'
@@ -32,6 +32,7 @@ $(document).ready(function() {
         })
         
     }) // END
+
 
     // ANIMACJA MAIN
     $('.e-link-section').on('click', () => {
@@ -70,15 +71,18 @@ $(document).ready(function() {
 const Nav = (props) => {
     return (
         <nav class="b-navigation">
-            <ul>
-                <li class="e-link-section e-link-sectionWelcome"><Link to="/">pk</Link></li>
-            </ul>
-            <ul>
-                <li class="e-link-section e-link-sectionAbout"><Link to="/about">About</Link></li>
-                <li class="e-link-section e-link-sectionWork"><Link to="/work">Work</Link></li>
-                <li class="e-link-section e-link-sectionProjects"><Link to="/projects">Projects</Link></li>
-                <li class="e-link-section e-link-sectionForm"><Link to="/form">Contact</Link></li>
-            </ul>
+            <div className="e-navigation">
+                <ul>
+                    <li class="e-link-section e-link-sectionWelcome"><Link to="/">pk</Link></li>
+                </ul>
+                <ul>
+                    <li class="e-link-section e-link-sectionAbout"><Link to="/about">About</Link></li>
+                    <li class="e-link-section e-link-sectionWork"><Link to="/work">Work</Link></li>
+                    <li class="e-link-section e-link-sectionProjects"><Link to="/projects">Projects</Link></li>
+                    <li class="e-link-section e-link-sectionForm"><Link to="/form">Contact</Link></li>
+                </ul>
+            </div>
+            
             
         </nav>
     )
