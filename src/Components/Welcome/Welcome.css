@@ -1,0 +1,24 @@
+#example1 {
+  font-family: 'Merriweather', 'Raleway', 'Karla', sans-serif;
+  margin-top: 150px;
+  color: black;
+  font-size: 50px !important;
+  font-weight: 600;
+  line-height: 120px; }
+
+.e-welcomeLink-sectionAbout {
+  opacity: 0;
+  margin-top: 100px;
+  background-color: transparent;
+  border: 0px solid #0098ff;
+  text-align: left;
+  padding: 10px;
+  width: 100%; }
+  .e-welcomeLink-sectionAbout i {
+    color: #0098ff;
+    font-size: 50px; }
+
+.welcomeLink--animated {
+  opacity: 1;
+  margin-left: 50px;
+  transition: all 900ms; }
