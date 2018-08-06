@@ -10,6 +10,10 @@ import './Welcome.css';
 import $ from 'jquery'
 import { findIconDefinition } from '@fortawesome/fontawesome-svg-core';
 $(document).ready(function() {
+
+    setTimeout(function() {
+        $('nav').addClass('nav--visible');
+    },100)
     
     // TYPING ANIMATION, oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
     setTimeout(() => {
@@ -21,10 +25,7 @@ $(document).ready(function() {
             afterComplete: function (instance) {
                 setTimeout(function() {
                     $('.e-welcomeLink-sectionAbout').addClass('welcomeLink--animated');
-                },200)
-                setTimeout(function() {
-                    $('nav').addClass('nav--visible');
-                },800)
+                },300)
             }
         })
         .type("Hello, World.")

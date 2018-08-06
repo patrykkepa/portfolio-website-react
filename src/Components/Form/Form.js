@@ -6,7 +6,7 @@ import './Form.css';
 const Form = (props) => {
     return (
         <section>
-            This is a Form
+        📬 Email me
         </section>
     )
 }

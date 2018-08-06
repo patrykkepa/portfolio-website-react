@@ -149,6 +149,10 @@ nav {
       color: #0098ff;
       text-decoration: none; }
 
+.nav--inVisible {
+  transform: translateY(-100px);
+  transition: all 0ms; }
+
 .nav--visible {
   transform: translateY(0px);
   transition: all 1100ms ease; }
