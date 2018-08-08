@@ -1,0 +1,16 @@
+.sectionForm h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-decoration: underline;
+  color: #0098ff;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+.sectionForm p {
+  font-family: 'Merriweather', 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 10px 0 10px 0;
+  line-height: 30px;
+  color: #7f7f7f; }

@@ -1,3 +1,5 @@
+@import '../../index';
+
 #example1 {
     font-family: 'Merriweather', 'Raleway', 'Karla', sans-serif;
     margin-top: 150px;
@@ -17,7 +19,7 @@
     width: 100%;
 
     i {
-        color: #0098ff;
+        color: $color-welcome-arrow;
         font-size: 50px;
     }
     

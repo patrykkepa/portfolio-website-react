@@ -8,12 +8,8 @@ import './Welcome.css';
 
 
 import $ from 'jquery'
-import { findIconDefinition } from '@fortawesome/fontawesome-svg-core';
 $(document).ready(function() {
 
-    setTimeout(function() {
-        $('nav').addClass('nav--visible');
-    },100)
     
     // TYPING ANIMATION, oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
     setTimeout(() => {
@@ -60,23 +56,25 @@ $(document).ready(function() {
                 .type("Take a look at my portfolio.")
         
             }, 500);
-
-            
-            
-            
-
     }) //END
 
 
+    // LINK TO SECTION ABOUT ANIMATION
+    
+
 })
+
 
     
 
 const Welcome = (props) => {
+    
     return (
         <section className="welcome">
             <p id="example1"></p>
-            <button className="e-welcomeLink-sectionAbout"><Link to="/about"><i className="fas fa-arrow-right"></i></Link></button>
+            <div className="e-welcomeLink-sectionAbout">
+                <Link to="/about"><i className="fas fa-arrow-right"></i></Link>
+            </div>
             
         </section>
     )

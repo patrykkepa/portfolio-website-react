@@ -41,7 +41,7 @@ nav{
                 
                 a{
                     font-size: 20px;
-                    background: #0098ff;
+                    background: $color-nav-logo;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
@@ -61,13 +61,13 @@ nav{
         border-right: 1px solid rgba(0, 0, 0, 0.1);
     }
     a{
-        color: rgba(0, 0, 0, 1);
+        color: $color-nav-a;
         font-weight: 700;
         line-height: 16px;
         font-size: 13px;
         &:hover {
             border: none;
-            color: #0098ff;
+            color: $color-nav-a--clicked;
             text-decoration: none;
         }
     }
@@ -87,4 +87,11 @@ nav{
 .nav--visible {
     transform: translateY(0px);
     transition: all 1100ms ease;
+}
+
+.link--clicked {
+    background: #0098ff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 400ms;
 }

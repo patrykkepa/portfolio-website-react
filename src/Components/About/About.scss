@@ -1,9 +1,9 @@
 .sectionAbout {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    opacity: 1;
 
     .e-about{
         display: flex;
@@ -28,27 +28,6 @@
         margin: 0 40px 20px 0;
         color: black;
 
-    }
-
-
-
-    .elo {
-        font-size: 50px;
-        background: -webkit-linear-gradient(110deg,#9586a6,#d7706d);
-        opacity: 0.2;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        transition: all 300ms;
-
-    }
-    .e-about:hover {
-        .elo {
-            background: -webkit-linear-gradient(110deg,#9586a6,#d7706d);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            opacity: 1;
-            transition: all 1000ms;
-        }
     }
 }
     

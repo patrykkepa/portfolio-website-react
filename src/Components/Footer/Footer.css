@@ -3,96 +3,13 @@ body {
   padding: 0;
   font-family: 'Merriweather', serif; }
 
-.title--main {
-  font-size: 10vw;
-  font-weight: 300;
-  text-align: center;
-  text-transform: capitalize;
-  color: rgba(0, 0, 0, 0.1); }
-
-.title--about {
-  font-size: 6vw;
-  font-weight: 300;
-  text-align: center;
+::selection {
+  background: #33aeff;
   color: white; }
 
-.title--left {
-  font-size: 40px;
-  font-weight: 300;
-  color: white;
-  margin: 15px 0 5px 0;
-  text-align: left; }
-
-.title--subtitle-left {
-  font-size: 12px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.6);
-  text-align: left;
-  text-transform: uppercase; }
-
-.title--undersored {
-  font-size: 25px;
-  font-weight: 300;
-  color: white;
-  margin: 10px 0;
-  text-align: center; }
-
-.title-accordion-item {
-  text-decoration: none !important;
-  color: rgba(0, 0, 0, 0.5);
-  margin-bottom: .75rem; }
-
-.title-form {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 0px 0 30px 0;
-  text-align: center;
+::-moz-selection {
+  background: #33aeff;
   color: white; }
-
-.title-footer {
-  font-size: 15px;
-  font-weight: 300;
-  margin: 0;
-  border: none;
-  color: rgba(0, 0, 0, 0.2); }
-
-.text--light {
-  font-size: 16px;
-  font-weight: 300;
-  margin: 15px 0;
-  color: rgba(255, 255, 255, 0.6);
-  text-align: center;
-  opacity: 0;
-  -webkit-transition: opacity .6s ease-in-out;
-  -moz-transition: opacity .6s ease-in-out;
-  -ms-transition: opacity .6s ease-in-out;
-  -o-transition: opacity .6s ease-in-out;
-  transition: opacity .6s ease-in-out; }
-
-.text--light-left {
-  font-size: 16px;
-  font-weight: 300;
-  margin: 5vh 3vh;
-  color: rgba(255, 255, 255, 0.6);
-  text-align: left; }
-
-.text--light-bold {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: underline; }
-
-.text-form {
-  font-size: 12px;
-  font-weight: 300;
-  margin: 15px 0;
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center; }
-
-.text-fewwords {
-  font-size: 6vh;
-  text-align: center;
-  transform: rotate(-90deg);
-  color: rgba(255, 255, 255, 0.1); }
 
 #sectionFooter {
   width: 810px;
@@ -107,9 +24,7 @@ body {
   #sectionFooter .e-footer {
     justify-content: center;
     padding: 10px 0 0 0;
-    height: auto;
-    color: black;
-    text-align: center; }
+    height: auto; }
     #sectionFooter .e-footer .e-social-ikon {
       display: flex;
       flex-direction: row;
@@ -127,7 +42,7 @@ body {
       margin: 0 10px; }
     #sectionFooter .e-footer .e-social-ikon-i:hover {
       text-decoration: none !important;
-      color: rgba(0, 0, 0, 0.8); }
+      color: #0098ff; }
   #sectionFooter p {
     font-family: 'Karla', sans-serif;
     font-size: 18px;

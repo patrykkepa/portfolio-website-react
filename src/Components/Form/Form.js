@@ -5,8 +5,11 @@ import './Form.css';
 
 const Form = (props) => {
     return (
-        <section>
-        📬 Email me
+        <section className="sectionForm">
+        <h1><span role="img" aria-label="mail">📬</span> Email me </h1>
+        <p><span role="img" aria-label="rocket">🔥</span> In case of emergency :D you can catch me at:</p>
+        <a href="mailto:patrykkepa.work@gmail.com"><h3>patrykkepa.work@gmail.com</h3></a>
+        
         </section>
     )
 }

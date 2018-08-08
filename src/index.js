@@ -12,6 +12,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import Nav from './Components/Nav/Nav';
 import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 
 import './index.css';
 
@@ -21,11 +22,14 @@ library.add(fab);
 class App extends React.Component {
     
     render() {
+        
         return (
             <Router>
                 <div className="">
                     <Nav />
+                    <ScrollToTop>
                     <Main />
+                    </ScrollToTop>
                     <Footer />
                 </div>
             </Router>

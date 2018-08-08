@@ -16,18 +16,16 @@
         justify-content: center;
         padding: 10px 0 0 0;
         height: auto;
-        color: rgba(0, 0, 0, 1);
-        text-align: center;
-    
+            
         .e-social-ikon {
             display: flex;
             flex-direction: row;
             justify-content: center;
             width: auto;
-            color: rgba(0, 0, 0, 0.2)
+            color: $color-footer-socialIkon;
           }
           .e-social-ikon:hover {
-            color: rgba(0, 0, 0, 0.2);
+            color: $color-footer-socialIkon;
           }
           .e-social-ikon-a {
             text-decoration: none !important;
@@ -40,7 +38,7 @@
           }
           .e-social-ikon-i:hover {
             text-decoration: none !important;
-            color: rgba(0, 0, 0, 0.8);
+            color: $color-footer-socialIkon--hover;
           }
     }
     p {

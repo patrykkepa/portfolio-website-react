@@ -14,15 +14,14 @@ import './Main.css';
  
 
 class Main extends React.Component {
-
-    
     
     render() {
+        
         return (
                 <main id='main'>
                     <Switch>
                         <Route exact path="/" component={Welcome}/>
-                        <Route exact path="/about" component={About}/>
+                        <Route path="/about" component={About}/>
                         <Route path="/work" component={Work}/>
                         <Route path="/projects" component={Projects}/>
                         <Route path="/form" component={Form}/>

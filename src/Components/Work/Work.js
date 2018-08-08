@@ -5,7 +5,7 @@ import './Work.css';
 const Work = (props) => {
     return (
         <section>
-            This is a Work
+            <p>This is a Work</p>
         </section>
     )
 }

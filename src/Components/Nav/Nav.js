@@ -8,60 +8,47 @@ import { Link } from 'react-router-dom'
 import $ from 'jquery'
 $(document).ready(function() {
 
+    $(this).scrollTop(0);
+
+    // ANIMACJA NAWIGACJI
+    setTimeout(function() {
+        $('nav').addClass('nav--visible');
+    },100)
+
+
+
 
     // ANIMACJA LINKóW NAWIGACJI
+    // reset wszystkich
     $('.e-link-section').find('a').on('click', () => {
-        $('.e-link-section').css({
-            'background': 'none',
-            '-webkit-background-clip': 'text',
-            '-webkit-text-fill-color': 'white',
-            // 'transform': 'rotateY(0deg)',
-            'transition': 'all 0ms'
-        });
-        
+        $('.e-link-section').removeClass('link--clicked');
     })
-
+    // nadanie koloru
     $('.e-link-section').each(function(){
         $(this).on('click', () => {
-            $(this).css({
-                // 'transform': 'rotateY(360deg)',
-                'background': '#0098ff',
-                '-webkit-background-clip': 'text',
-                '-webkit-text-fill-color': 'transparent',
-                'transition': 'all 400ms'
-            });
+            $(this).addClass('link--clicked');
         })
-        
-    }) // END
+    }) 
+    // warunek
+    const adres = window.location.href;
+    if(adres.includes('about')) {
+        $('.e-link-sectionAbout').addClass('link--clicked');
+    }
+    if(adres.includes('work')) {
+        $('.e-link-sectionWork').addClass('link--clicked');
+    }
+    if(adres.includes('projects')) {
+        $('.e-link-sectionProjects').addClass('link--clicked');
+    }
+    if(adres.includes('form')) {
+        $('.e-link-sectionForm').addClass('link--clicked');
+    } // END
+
+
+
 
 
     // ANIMACJA MAIN
-    // $('.e-link-section').on('click', () => {
-    //     $('#main').css({
-    //         'transform': 'translateX(-25px)',
-    //         'opacity': '0',
-    //         'transition': 'all 0ms'
-    //     });
-    // })
-
-    // $('.e-link-section').each(function(){
-    //     $(this).on('click', () => {
-    //         $('#main').css({
-    //             'transform': 'translateX(25px)',
-    //             'opacity': '0'
-    //         });
-
-    //         setTimeout(function() {
-    //             $('#main').css({
-    //                 'transform': 'translateX(0px)',
-    //                 'opacity': '1',
-    //                 'transition': 'all 100ms'
-    //             });
-    //         },200)
-    //     })
-        
-    // }) // END
-
     $('.e-link-section').on('click', () => {
         $('#main').removeClass('main--open');
     })
