@@ -1,0 +1,73 @@
+.o-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 200px; }
+  .o-card-wrapper h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0 8px 0; }
+  .o-card-wrapper h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center; }
+  .o-card-wrapper h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center; }
+  .o-card-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin: 0;
+    margin: 0 10px; }
+  .o-card-wrapper .column-left,
+  .o-card-wrapper .column-right {
+    width: 47%; }
+  .o-card-wrapper .o-card {
+    width: 100%;
+    height: 85px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all 500ms;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer; }
+  .o-card-wrapper .o-card.first {
+    background: linear-gradient(45deg, #ff476f, #fa7e19); }
+  .o-card-wrapper .o-card.secound {
+    background: linear-gradient(45deg, #ff476f, #fa7e19); }
+  .o-card-wrapper .o-card.third {
+    background: linear-gradient(45deg, #ff476f, #fa7e19); }
+  .o-card-wrapper .e-card-title {
+    padding: 5px; }
+  .o-card-wrapper .e-card-body {
+    padding: 20px 0;
+    margin: 5px 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 30px; }
+  .o-card-wrapper .e-card-footer {
+    padding: 0 0;
+    margin: 0 50px; }
+  .o-card-wrapper .o-card--visible {
+    height: 350px;
+    box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.3);
+    transition: all 500ms; }

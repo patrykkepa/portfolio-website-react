@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 
+
+import Technology from '../Technology/Technology';
+
 import './About.css';
 
 import $ from 'jquery'
 $(document).ready(function() {
 
-    $('.fa-arrow-right').on('click', function(e) {
-        console.log(e.target);
-        $('.sectionAbout').css({
-            'opacity': '0',
+    // {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
+    $('.o-card').each(function() {
+        $(this).on('click', () => {
+            $(this).toggleClass('o-card--visible');
         })
-    })
+    })        
 
 })
 
@@ -58,7 +61,9 @@ const About = (props) => {
                     <p>Even though I'm learning on my own I do not close myself in my world, but I learn from the best and gets to know the programming environment through YouTube videos, React and Javascript newsletter's, Wes Boss and other podcasts. Preparing to work in a team I use Git and GitHub, Webpack, ESLint on my daily basis.</p> 
                 </div>
             </div>
-            
+
+            <Technology />
+        
         </section>
 
         

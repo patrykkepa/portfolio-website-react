@@ -29,23 +29,7 @@ $(document).ready(function() {
             $(this).addClass('link--clicked');
         })
     }) 
-    // warunek
-    const adres = window.location.href;
-    if(adres.includes('about')) {
-        $('.e-link-sectionAbout').addClass('link--clicked');
-    }
-    if(adres.includes('work')) {
-        $('.e-link-sectionWork').addClass('link--clicked');
-    }
-    if(adres.includes('projects')) {
-        $('.e-link-sectionProjects').addClass('link--clicked');
-    }
-    if(adres.includes('form')) {
-        $('.e-link-sectionForm').addClass('link--clicked');
-    } // END
-
-
-
+     // END
 
 
     // ANIMACJA MAIN

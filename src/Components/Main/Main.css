@@ -8,6 +8,13 @@ main {
     font-family: 'Karla', sans-serif;
     font-size: 30px;
     font-weight: 700; }
+  main h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
   main p {
     font-family: 'Merriweather', 'Karla', sans-serif;
     font-size: 16px;
