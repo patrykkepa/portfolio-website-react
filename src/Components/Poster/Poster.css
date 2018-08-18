@@ -1,0 +1,93 @@
+.o-posterContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: 100px; }
+  .o-posterContainer:hover .o-poster .e-posterIcon .label {
+    opacity: 1;
+    transition: all 500ms ease; }
+
+.o-poster {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  position: relative; }
+  .o-poster .e-posterBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; }
+  .o-poster #e-posterBackground--myPortfolio {
+    background: linear-gradient(45deg, #ff476f, #fa7e19); }
+  .o-poster #e-posterBackground--shopStreetwear {
+    background: linear-gradient(45deg, #585764, #8c8a9c); }
+  .o-poster .e-posterImage {
+    background-image: url(./img/myPortfolio.png);
+    background-size: cover;
+    -webkit-box-shadow: 0px 25px 52px -3px #002d759d;
+    box-shadow: 0px 25px 52px -3px #002d759d;
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    right: 20px;
+    top: -100px; }
+  .o-poster .e-posterTitle {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+    left: 5%;
+    top: -70px;
+    cursor: pointer; }
+    .o-poster .e-posterTitle h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+      font-weight: 700; }
+    .o-poster .e-posterTitle .fa-arrow-right {
+      font-size: 25px;
+      margin-right: 10px;
+      transform: translateX(-40px);
+      opacity: 0; }
+    .o-poster .e-posterTitle:hover .fa-arrow-right {
+      transform: translateX(0px);
+      opacity: 1;
+      transition: all 700ms; }
+  .o-poster .e-posterDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 2;
+    left: 5%;
+    top: 10%;
+    width: 30%;
+    text-align: left; }
+    .o-poster .e-posterDescription p {
+      font-family: 'Montserrat', sans-serif;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      line-height: 35px; }
+  .o-poster .e-posterIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px; }
+    .o-poster .e-posterIcon .fab {
+      font-size: 35px;
+      color: white;
+      margin-right: 20px; }
+    .o-poster .e-posterIcon .label {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      letter-spacing: 1px;
+      color: white;
+      opacity: 0;
+      transition: all 300ms ease; }
