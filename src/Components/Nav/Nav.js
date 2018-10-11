@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $(this).scrollTop(0);
 
-    // ANIMACJA NAWIGACJI
+    // {NAV} ANIMACJA NAWIGACJI
     setTimeout(function() {
         $('nav').addClass('nav--visible');
     },100)
@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 
 
-    // ANIMACJA LINKóW NAWIGACJI
+    // {NAV} ANIMACJA LINKóW NAWIGACJI
     // reset wszystkich
     $('.e-link-section').find('a').on('click', () => {
         $('.e-link-section').removeClass('link--clicked');
@@ -32,7 +32,7 @@ $(document).ready(function() {
      // END
 
 
-    // ANIMACJA MAIN
+    // {MAIN} ANIMACJA MAIN
     $('.e-link-section').on('click', () => {
         $('#main').removeClass('main--open');
     })

@@ -11,7 +11,7 @@ import $ from 'jquery'
 $(document).ready(function() {
 
     
-    // TYPING ANIMATION, oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
+    // {WELCOME} TYPING ANIMATION, on load,  oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
     setTimeout(() => {
         new TypeIt('#example1', {
             // strings: ["Hello, World.", "Take a look at my portfolio."],
@@ -33,7 +33,7 @@ $(document).ready(function() {
     }, 800); //END
 
 
-    // TYPING ANIMATION, po aktywowaniu linkiem
+    // {WELCOME} TYPING ANIMATION, po aktywowaniu linkiem
     $('.e-link-sectionWelcome').find('a').on('click', () => {
 
             $('.e-welcomeLink-sectionAbout').removeClass('welcomeLink--animated');
@@ -57,9 +57,6 @@ $(document).ready(function() {
         
             }, 500);
     }) //END
-
-
-    // LINK TO SECTION ABOUT ANIMATION
     
 
 })
