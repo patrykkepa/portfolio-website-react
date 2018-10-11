@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+```
 1. Struktura plików aplikacji:
 
   src/Index.js -   
@@ -37,7 +38,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
             // <Poster /> 
 
 
-3. Funkcje:
+3. Funkcje:  
             Funkcje zawarte w danym komponencie powinny dotyczyć dzieci komponentu, bezpośrednio danego komponentu, lub w nich wywoływane mieć wpływ na komponenty sąsiednie.
 
             - Nav.js -  // {NAV} ANIMACJA NAWIGACJI
@@ -53,5 +54,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
                         // {WELCOME} TYPING ANIMATION, on load,  oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
                         // {WELCOME} TYPING ANIMATION, po aktywowaniu linkiem
             
-            -About.js - 
+            - About.js - 
                         // {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
+
+
+
+                        
+```
