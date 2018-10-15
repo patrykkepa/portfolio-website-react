@@ -24,7 +24,7 @@ class Work extends React.Component {
         )
     }
 }
-
+ 
 
 
 export default Work;

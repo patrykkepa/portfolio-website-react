@@ -5,10 +5,10 @@
   align-items: center;
   width: 100%;
   height: auto;
-  margin-top: 150px;
-  margin-bottom: 100px; }
-  .o-posterContainer:hover .o-poster .e-posterIcon .label {
-    opacity: 1;
+  padding-top: 150px;
+  padding-bottom: 100px; }
+  .o-posterContainer:hover .e-posterIcon .label {
+    opacity: .8;
     transition: all 500ms ease; }
 
 .o-poster {
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 2;
+    z-index: 10;
     left: 5%;
     top: -70px;
     cursor: pointer; }
@@ -79,10 +79,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 40px; }
+    margin-top: 20px; }
     .o-poster .e-posterIcon .fab {
-      font-size: 35px;
-      color: white;
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.8);
       margin-right: 20px; }
     .o-poster .e-posterIcon .label {
       font-family: 'Montserrat', sans-serif;

@@ -1,3 +1,6 @@
+.sectionForm h1 {
+  font-size: 30px;
+  color: black; }
 .sectionForm h5 {
   font-family: 'Karla', sans-serif;
   font-size: 25px;
@@ -8,9 +11,14 @@
   margin-bottom: 50px; }
 .sectionForm p {
   font-family: 'Merriweather', 'Karla', sans-serif;
-  font-size: 14px;
+  font-size: 35px;
   font-weight: 300;
   letter-spacing: 1px;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
   line-height: 30px;
-  color: #7f7f7f; }
+  color: #0098ff; }
+  .sectionForm p .fab, .sectionForm p .far {
+    margin-right: 30px; }
+.sectionForm a {
+  text-decoration: none;
+  color: inherit; }
