@@ -48,6 +48,14 @@ $(document).ready(function() {
         })
     })
 
+
+    // {NAV} HAMBURGER
+    var $hamburger = $(".hamburger");
+    $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+    // Do something else, like open/close menu
+  });
+
 })
 
 
@@ -57,16 +65,23 @@ $(document).ready(function() {
 const Nav = (props) => {
     return (
         <nav className="b-navigation">
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
             <div className="e-navigation">
+            
                 <ul>
                     <li className="e-link-section e-link-sectionWelcome"><Link to="/">pk</Link></li>
                 </ul>
                 <ul>
                     <li className="e-link-section e-link-sectionAbout"><Link to="/about">About</Link></li>
                     <li className="e-link-section e-link-sectionWork"><Link to="/work">Work</Link></li>
-                    <li className="e-link-section e-link-sectionProjects"><Link to="/projects">Projects</Link></li>
                     <li className="e-link-section e-link-sectionForm"><Link to="/form">Contact</Link></li>
                 </ul>
+                
+                
             </div>
             
             
