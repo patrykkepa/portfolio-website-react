@@ -49,3 +49,7 @@ body {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.2);
     margin-bottom: 0; }
+
+@media only screen and (max-width: 480px) {
+  #sectionFooter {
+    display: none; } }

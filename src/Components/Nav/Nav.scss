@@ -109,12 +109,14 @@ nav{
     }
 }
 @media only screen and (max-width: 480px){
+    nav{
+        padding: 0;
+    }
     .e-link-section{
         display: none;
     }
     .hamburger {
         display: inline-block;
         z-index: 10;
-        float: left;
     }
 }

@@ -758,10 +758,12 @@ nav {
     margin-left: 0 !important;
     padding: 0 30px !important; } }
 @media only screen and (max-width: 480px) {
+  nav {
+    padding: 0; }
+
   .e-link-section {
     display: none; }
 
   .hamburger {
     display: inline-block;
-    z-index: 10;
-    float: left; } }
+    z-index: 10; } }
