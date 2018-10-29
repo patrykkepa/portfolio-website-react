@@ -1,0 +1,38 @@
+@import '../../index';
+
+#mobileFooter {
+    display: none;
+    width: 100%;
+    font-family: "Karla",serif;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+
+    a{
+        color: $color-mobileFooter-link;
+        font-weight: 700;
+        cursor: pointer;
+        width: 100%;
+    }
+    a:focus{
+        color: $color-mobileFooter-link;
+        text-decoration: none;
+    }
+    a:hover{
+        color:$color-mobileFooter-link;
+        text-decoration: none;
+    }
+    i{
+        color: $color-mobileFooter-link;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    #mobileFooter{
+        display: block;
+    }
+}

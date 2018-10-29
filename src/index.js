@@ -11,6 +11,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import Nav from './Components/Nav/Nav';
 import Main from './Components/Main/Main';
+import MobileFooter from './Components/MobileFooter/MobileFooter';
 import MobileMenu from './Components/MobileMenu/MobileMenu';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
@@ -23,6 +24,7 @@ library.add(fab);
 class App extends React.Component {
     
     render() {
+
         
         return (
             <Router>
@@ -32,6 +34,7 @@ class App extends React.Component {
                     <Main />
                     </ScrollToTop>
                     <MobileMenu />
+                    <MobileFooter />
                     <Footer />
                 </div>
             </Router>

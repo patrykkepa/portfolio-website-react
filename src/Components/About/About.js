@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom'
+
 
 import Technology from '../Technology/Technology';
+import MobileFooter from '../MobileFooter/MobileFooter';
 
 import './About.css';
 
@@ -63,6 +66,9 @@ const About = (props) => {
             </div>
 
             <Technology />
+            {/* <MobileFooter 
+                link={<Link className="e-mobileFooter-link" to="/work">Work<i class="fas fa-arrow-right"></i></Link>} 
+            /> */}
         
         </section>
 

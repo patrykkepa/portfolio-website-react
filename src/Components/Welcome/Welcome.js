@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import TypeIt from 'typeit';
 
+
 import './Welcome.css';
 
 
@@ -72,7 +73,6 @@ const Welcome = (props) => {
             <div className="e-welcomeLink-sectionAbout">
                 <Link to="/about"><i className="fas fa-arrow-right"></i></Link>
             </div>
-            
         </section>
     )
 }

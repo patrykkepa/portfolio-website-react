@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif; }
+
+::selection {
+  background: #33aeff;
+  color: white; }
+
+::-moz-selection {
+  background: #33aeff;
+  color: white; }
+
+#mobileFooter {
+  display: none;
+  width: 100%;
+  font-family: "Karla",serif;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: white; }
+  #mobileFooter a {
+    color: #0098ff;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%; }
+  #mobileFooter a:focus {
+    color: #0098ff;
+    text-decoration: none; }
+  #mobileFooter a:hover {
+    color: #0098ff;
+    text-decoration: none; }
+  #mobileFooter i {
+    color: #0098ff;
+    font-size: 25px;
+    margin-left: 10px; }
+
+@media only screen and (max-width: 480px) {
+  #mobileFooter {
+    display: block; } }
