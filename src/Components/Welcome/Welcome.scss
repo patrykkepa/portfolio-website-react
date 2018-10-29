@@ -30,3 +30,18 @@
     margin-left: 50px;
     transition: all 900ms;
 }
+
+
+@media only screen and (max-width: 480px){
+    #example1{
+        margin-top: 0px;
+        padding: 0 20px;
+        font-size: 10vw !important;
+        font-weight: 600;
+        line-height: 25vw !important;
+
+    }
+    .e-welcomeLink-sectionAbout{
+        margin-top: 20px;
+    }
+}

@@ -55,3 +55,16 @@ main {
     transition: all 100ms;
 }
 
+
+@media only screen and (max-width: 480px){
+    main{
+        padding: 100px 0 0 0;
+    }
+    h1{
+        font-size: 28px !important;
+    }
+    p{
+        font-size: 15px !important;
+        line-height: 43px !important;
+    }
+}

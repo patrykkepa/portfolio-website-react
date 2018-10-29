@@ -16,14 +16,15 @@ body {
   width: 100%;
   font-family: "Karla",serif;
   font-size: 25px;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
   background-color: white; }
   #mobileFooter a {
     color: #0098ff;
     font-weight: 700;
     cursor: pointer;
-    width: 100%; }
+    width: 100%;
+    padding: 20px 0px; }
   #mobileFooter a:focus {
     color: #0098ff;
     text-decoration: none; }

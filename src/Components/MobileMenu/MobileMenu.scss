@@ -1,6 +1,7 @@
 #mobileMenu {
     display: block;
     position: fixed;
+    z-index: 3;
     top: 60px;
     height: 100%;
     width: 100%;
@@ -47,7 +48,7 @@
     position: absolute;
     // bottom: 0px;
     top: 30vh;
-    width: 100%;
+    width: 80%;
     height: 300px;
     line-height: 80px;
     left: 20px;

@@ -15,7 +15,7 @@ nav{
     width: 100%;
     padding: 0 50px;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     
     .e-navigation{
         display: flex;
@@ -119,4 +119,8 @@ nav{
         display: inline-block;
         z-index: 10;
     }
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+        width: 20px !important;
+    }
+    
 }

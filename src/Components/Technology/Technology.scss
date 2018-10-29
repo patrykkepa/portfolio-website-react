@@ -90,3 +90,25 @@
         transition: all 500ms;
     }
 }
+
+@media only screen and (max-width: 480px){
+    .column-left,
+    .column-right{
+        width: 80% !important;
+    }
+    .o-card-wrapper{
+        margin-bottom: 50px !important;
+    }
+    .o-card-wrapper p{
+        line-height: 28px !important;
+    }
+    .e-card-body{
+        margin: 5px 10px !important;
+    }
+    .e-card-footer{
+        margin: 0px 10px !important;
+    }
+    .o-card--visible{
+        height: 400px !important;
+    }
+}

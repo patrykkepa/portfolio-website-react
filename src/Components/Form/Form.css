@@ -29,3 +29,20 @@
     color: inherit; }
     .sectionForm a:hover {
       color: #0098ff; }
+
+@media only screen and (max-width: 850px) {
+  .sectionForm {
+    margin-top: 50px;
+    padding: 0 20px; }
+    .sectionForm p {
+      font-size: 25px !important; }
+    .sectionForm h5 {
+      font-size: 22px; } }
+@media only screen and (max-width: 480px) {
+  .sectionForm {
+    margin-top: 50px;
+    padding: 0 20px; }
+    .sectionForm p {
+      font-size: 25px !important; }
+    .sectionForm h5 {
+      font-size: 22px; } }

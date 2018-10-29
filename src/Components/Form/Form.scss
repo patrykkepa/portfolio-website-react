@@ -43,3 +43,33 @@
 
 }
 
+
+@media only screen and (max-width: 850px){
+    .sectionForm{
+        margin-top: 50px;
+        padding: 0 20px;
+        
+        p{
+            font-size: 25px !important;
+        }
+        h5{
+            font-size: 22px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .sectionForm{
+        margin-top: 50px;
+        padding: 0 20px;
+        
+        p{
+            font-size: 25px !important;
+        }
+        h5{
+            font-size: 22px;
+        }
+    }
+    
+}
+
