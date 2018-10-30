@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Poster from '../Poster/Poster';
+
 import './Nav.css';
 
 import { Link } from 'react-router-dom'
@@ -25,7 +27,7 @@ $(document).ready(function() {
     })
     // nadanie koloru
     $('.e-link-section').each(function(){
-        $(this).on('click', () => {
+        $(this).find('a').on('click', () => {
             $(this).addClass('link--clicked');
         })
     }) 
@@ -61,8 +63,8 @@ $(document).ready(function() {
     $hamburger.removeClass("is-active");
   })
 
-})
 
+})
 
 
 

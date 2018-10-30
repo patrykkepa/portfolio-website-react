@@ -2,7 +2,18 @@ import React, { Component } from 'react';
 
 import './Poster.css';
 
+
+import $ from 'jquery'
+$(document).ready(function() {
+
+       
+
+})
+
+
 const Poster = (props) => {
+
+
     return(
         <div id={props.id} className="o-posterContainer">
             
@@ -19,13 +30,10 @@ const Poster = (props) => {
                 
                 <div className="e-posterImage"></div>
 
-                
-            
-            
+
         </div>
     )
 }
-
 
 
 

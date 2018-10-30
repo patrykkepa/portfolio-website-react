@@ -28,7 +28,14 @@
   position: absolute;
   z-index: 2;
   right: 20px;
-  top: 100px; }
+  top: 100px;
+  transition: all 300ms; }
+
+.posterImage--open {
+  width: 730px;
+  height: 550px;
+  top: 30px;
+  transition: all 400ms; }
 
 .e-posterTitle {
   position: absolute;
@@ -101,7 +108,7 @@
 @media only screen and (max-width: 480px) {
   .o-posterContainer {
     height: 200px !important;
-    margin: 100px 0 300px 0; }
+    margin: 100px 0 250px 0; }
 
   .e-posterDescription {
     margin: 5px;
@@ -117,9 +124,16 @@
 
   .e-posterImage {
     right: 20px !important;
-    top: 130px !important;
+    top: 120px !important;
     width: 300px !important;
-    height: 250px !important; } }
+    height: 250px !important; }
+
+  .posterImage--open {
+    right: 0px !important;
+    top: 10px !important;
+    width: 414px !important;
+    height: 300px !important;
+    transition: all 400ms; } }
 @media only screen and (max-width: 320px) {
   .e-posterImage {
     right: 20px !important;

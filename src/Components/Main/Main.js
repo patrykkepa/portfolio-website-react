@@ -50,7 +50,9 @@ class Main extends React.Component {
                 $(this).on('click', () => {
                     $(this).toggleClass('o-card--visible');
                 })
-            })            
+            })       
+            
+            
         
         })
 
