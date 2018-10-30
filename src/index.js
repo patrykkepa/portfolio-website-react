@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Route, Switch } from 'react-router-dom'
 import {BrowserRouter as Router } from 'react-router-dom';
-import $ from 'jquery';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

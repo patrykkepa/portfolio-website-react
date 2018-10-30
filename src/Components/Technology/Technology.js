@@ -1,15 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Fragment } from 'react';
 
 
 import './Technology.css';
 
-import $ from 'jquery'
-
-$(document).ready(function() {
-
-
-})
 
 const Technology = (props) => {
     return (

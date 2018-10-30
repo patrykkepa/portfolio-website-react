@@ -1,14 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './PosterDetails.css';
-
-
-import $ from 'jquery'
-$(document).ready(function() {
-
-       
-
-})
 
 
 const PosterDetails = (props) => {

@@ -28,36 +28,43 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
               <Route exact path="/" component={Welcome}/>
               <Route path="/about" component={About}/>
               <Route path="/work" component={Work}/>
-              <Route path="/projects" component={Projects}/>
               <Route path="/form" component={Form}/>
             </Switch>
 
   About.js -   
              ...  
-             <Technology />  
+             <Technology />  - komponent poswiecony opisowi danej umiejetnosci
 
   Work.js -  
-             <Poster /> 
+             <Poster />           - komponent przyjmujacy props w zaleznosci od projektu ktoremu jest poswiecony
+             <Poster Details />   - komponent uzupelniajacy Poster
 
 
 3. Funkcje:  
             Funkcje zawarte w danym komponencie powinny dotyczyć dzieci komponentu, bezpośrednio danego komponentu, lub w nich wywoływane mieć wpływ na komponenty sąsiednie.
 
-            - Nav.js -   {NAV} ANIMACJA NAWIGACJI
-                         {NAV} ANIMACJA LINKóW NAWIGACJI
-                         {MAIN} ANIMACJA MAIN
+            - Nav.js -  {NAV} ANIMACJA NAWIGACJI
+                        {NAV} ANIMACJA LINKóW NAWIGACJI
+                        {MAIN} ANIMACJA MAIN
+                        {NAV} HAMBURGER
 
             - Main.js - 
-                         {MAIN} ANIMACJA MAIN PO WCIŚNIĘCIU BUTTONA W WELCOME PAGE
-                         {NAV} KOLOR NAWIGACJI W ZALEŻNOŚCI OD ADRESU
-                         {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
+                        {MAIN} ANIMACJA MAIN PO WCIŚNIĘCIU BUTTONA W WELCOME PAGE
+                        {NAV} KOLOR NAWIGACJI W ZALEŻNOŚCI OD ADRESU
+                        {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
 
             - Welcome.js - 
-                         {WELCOME} TYPING ANIMATION, on load,  oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
-                         {WELCOME} TYPING ANIMATION, po aktywowaniu linkiem
+                        {WELCOME} TYPING ANIMATION, on load,  oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
+                        {WELCOME} TYPING ANIMATION, po aktywowaniu linkiem
             
             - About.js - 
-                         {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
+                        {TECHNOLOGY} DODAJE CLASS visible do o-card, powoduje otworzenie karty
+
+            - Work.js -
+                        {POSTER} DODAJE ANIMACJE DO POSTERIMAGE ORAZ WYSWIETA POSTERDETAILS
+            
+            - MobieFooter.js - 
+                        {MAIN} ANIMACJA MAIN 
 
 
 

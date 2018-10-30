@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import { Link } from 'react-router-dom'
 
 import Poster from '../Poster/Poster';
 import PosterDetails from '../PosterDetails/PosterDetails';
-import MobileFooter from '../MobileFooter/MobileFooter';
 
 import './Work.css';
 

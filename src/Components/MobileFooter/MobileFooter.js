@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './MobileFooter.css';
 
@@ -37,8 +37,8 @@ const MobileFooter = (props) => {
                 {!(window.location.href.includes('about') || window.location.href.includes('work')) ? 
                 (null) : 
                 (window.location.href.includes('about') ? 
-                <Link className="e-mobileFooter-link" to="/work">Work<i class="fas fa-arrow-right"></i></Link> : 
-                <Link className="e-mobileFooter-link" to="/form">Contact<i class="fas fa-arrow-right"></i></Link>)
+                <Link className="e-mobileFooter-link" to="/work">Work<i className="fas fa-arrow-right"></i></Link> : 
+                <Link className="e-mobileFooter-link" to="/form">Contact<i className="fas fa-arrow-right"></i></Link>)
                 }
 
 

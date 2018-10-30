@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
@@ -12,10 +12,10 @@ const Footer = (props) => {
 
                     <div className="row e-footer">
                         <div className="e-social-ikon">
-                        <a className="e-social-ikon-a" href="#"><i className="fab fa-facebook e-social-ikon-i" aria-hidden="true"></i></a>
-                        <a className="e-social-ikon-a" href="#"><i className="far fa-envelope-open e-social-ikon-i"></i></a>
-                        <a className="e-social-ikon-a" href="#"><i className="fab fa-github e-social-ikon-i"></i></a>
-                        <a className="e-social-ikon-a" href="#"><i className="fab fa-linkedin-in e-social-ikon-i"></i></a>
+                        <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-facebook e-social-ikon-i" aria-hidden="true"></i></a>
+                        <a className="e-social-ikon-a" href="mailto:patrykkepa.work@gmail.com"><i className="far fa-envelope-open e-social-ikon-i"></i></a>
+                        <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-github e-social-ikon-i"></i></a>
+                        <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-linkedin-in e-social-ikon-i"></i></a>
                         </div>
                         
                     </div>

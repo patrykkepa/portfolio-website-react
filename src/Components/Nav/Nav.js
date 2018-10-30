@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-
-import Poster from '../Poster/Poster';
+import React from 'react';
 
 import './Nav.css';
 
@@ -72,9 +70,9 @@ $(document).ready(function() {
 const Nav = (props) => {
     return (
         <nav className="b-navigation">
-            <button class="hamburger hamburger--collapse" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
+            <button className="hamburger hamburger--collapse" type="button">
+                <span className="hamburger-box">
+                    <span className="hamburger-inner"></span>
                 </span>
             </button>
             <div className="e-navigation">

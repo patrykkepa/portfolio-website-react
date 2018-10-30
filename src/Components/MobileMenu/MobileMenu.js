@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './MobileMenu.css';
 
@@ -9,7 +9,7 @@ const MobileMenu = (props) => {
     return (
         <section>
             <div id="mobileMenu">
-                <div class="e-mobileMenu">
+                <div className="e-mobileMenu">
                     <span><Link to="/about">About</Link></span>
                     <span><Link to="/work">Work</Link></span>
                     <span><Link to="/form">Contact</Link></span>
