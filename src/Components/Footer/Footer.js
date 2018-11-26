@@ -15,7 +15,7 @@ const Footer = (props) => {
                         <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-facebook e-social-ikon-i" aria-hidden="true"></i></a>
                         <a className="e-social-ikon-a" href="mailto:patrykkepa.work@gmail.com"><i className="far fa-envelope-open e-social-ikon-i"></i></a>
                         <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-github e-social-ikon-i"></i></a>
-                        <a className="e-social-ikon-a" href="https://github.com/patrykkepa"><i className="fab fa-linkedin-in e-social-ikon-i"></i></a>
+                        <a className="e-social-ikon-a" href="https://www.linkedin.com/in/patryk-k%C4%99pa-ba79a1163/"><i className="fab fa-linkedin-in e-social-ikon-i"></i></a>
                         </div>
                         
                     </div>

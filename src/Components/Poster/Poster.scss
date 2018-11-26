@@ -25,7 +25,6 @@
 
     
     .e-posterImage {
-        background-image: url(./img/myPortfolio.png);
         background-size: cover;
         -webkit-box-shadow: 0px 25px 52px -3px #002d759d;
         box-shadow: 0px 25px 52px -3px #002d759d;
@@ -36,6 +35,12 @@
         right: 20px;
         top: 100px;
         transition: all 300ms;
+    }
+    .e-posterImage--myPortfolio{
+        background-image: url(./img/myPortfolio.png);
+    }
+    .e-posterImage--StreetwearShop{
+        background-image: url(./img/streetwearShop.png);
     }
     .posterImage--open{
         width: 730px;

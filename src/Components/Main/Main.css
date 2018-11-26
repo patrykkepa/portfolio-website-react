@@ -1,3 +1,10 @@
+button:active {
+  outline: none !important;
+  border: none !important; }
+
+button:focus {
+  outline: 0px !important; }
+
 main {
   text-align: left;
   min-height: 100vh;
@@ -19,6 +26,14 @@ main {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px; }
+  main h6 {
+    font-family: 'Merriweather', 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 5px 0 0px 0;
+    line-height: 40px;
+    color: #7f7f7f; }
   main p {
     font-family: 'Merriweather', 'Karla', sans-serif;
     font-size: 16px;

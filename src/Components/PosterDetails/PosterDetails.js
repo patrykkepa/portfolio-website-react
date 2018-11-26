@@ -12,17 +12,18 @@ const PosterDetails = (props) => {
             
                 <div className="e-posterDetailsTitle">
                     <h1>{props.title}</h1>
-                    <p>{props.titleDesc}</p>
+                    <a href={props.href}><p className="e-posterDetailsLink">{props.hrefDesc}</p></a>
+                    <a href={props.hrefGit}><p className="e-posterDetailsLink">GitHub</p></a>
                 </div>
 
                 <div className="e-posterDetailsStack">
                     <h1>Stack</h1>
-                    <p>{props.stack}</p>
+                    {props.stack}
                 </div>
                 
                 <div className="e-posterDetailInfo">
                     <h1>About project</h1>
-                    <p>{props.info}</p>
+                    {props.info}
                 </div>
 
 

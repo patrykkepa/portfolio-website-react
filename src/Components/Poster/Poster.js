@@ -20,7 +20,7 @@ const Poster = (props) => {
                     {props.icon}
                 </div>
                 
-                <div className="e-posterImage"></div>
+                <div className={props.posterImage}></div>
 
 
         </div>
@@ -29,4 +29,4 @@ const Poster = (props) => {
 
 
 
-export default Poster;
+export default Poster; 
