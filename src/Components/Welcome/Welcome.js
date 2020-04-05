@@ -15,7 +15,7 @@ $(document).ready(() => {
   // {WELCOME} TYPING ANIMATION, on load,  oraz dodanie klasy animacyjnej do buttona i nav po zakonczeniu pisania
   setTimeout(() => {
     new TypeIt('#example1', {
-      // strings: ["Hello, I am glad you are here.", "Please take a look at my portfolio."],
+      strings: ["Hello.", "Please take a look at my portfolio."],
       speed: 30,
       breakLines: true,
       autoStart: false,
@@ -25,11 +25,7 @@ $(document).ready(() => {
         }, 500);
       },
     })
-      .type('Hi there! ')
-      .pause(1000)
-      .break()
-      .options({ speed: 40 })
-      .type('Please, check my portfolio.');
+      
   }, 200); // END
 
 
