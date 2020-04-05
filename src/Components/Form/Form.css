@@ -1,48 +1,97 @@
 .sectionForm {
-  margin-top: 30%; }
-  .sectionForm h1 {
-    font-size: 30px;
-    color: black; }
-  .sectionForm h2 {
-    font-size: 25px;
-    color: rgba(0, 0, 0, 0.4); }
-  .sectionForm h5 {
-    font-family: 'Karla', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    text-decoration: underline;
-    color: #0098ff;
-    margin-top: 20px;
-    margin-bottom: 50px; }
-  .sectionForm p {
-    font-family: 'Merriweather', 'Karla', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin: 20px 0 10px 0;
-    line-height: 30px;
-    color: rgba(0, 0, 0, 0.4); }
-    .sectionForm p .fab, .sectionForm p .far {
-      margin-right: 30px; }
-  .sectionForm a {
-    text-decoration: none;
-    color: inherit; }
-    .sectionForm a:hover {
-      color: #0098ff; }
+  margin-top: 30%;
+  text-align: center;
+}
+
+.sectionForm h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.sectionForm h2 {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
+}
+
+.sectionForm h5 {
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #0098ff;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.sectionForm .email {
+  display: block;
+}
+
+.sectionForm .hand {
+  font-size: 25px;
+  margin: 0;
+}
+
+.sectionForm p {
+  font-family: 'Merriweather', 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.pointer {
+  font-family: 'Karla', sans-serif;
+  font-size: 70px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.sectionForm p .fab,
+.sectionForm p .far {
+  margin-right: 30px;
+}
+
+.sectionForm a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sectionForm a:hover {
+  color: #0098ff;
+}
 
 @media only screen and (max-width: 850px) {
   .sectionForm {
     margin-top: 50px;
-    padding: 0 20px; }
-    .sectionForm p {
-      font-size: 25px !important; }
-    .sectionForm h5 {
-      font-size: 22px; } }
+    padding: 0 20px;
+  }
+
+  .sectionForm p {
+    font-size: 25px !important;
+  }
+
+  .sectionForm h5 {
+    font-size: 22px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .sectionForm {
     margin-top: 50px;
-    padding: 0 20px; }
-    .sectionForm p {
-      font-size: 25px !important; }
-    .sectionForm h5 {
-      font-size: 22px; } }
+    padding: 0 20px;
+  }
+
+  .sectionForm p {
+    font-size: 25px !important;
+  }
+
+  .sectionForm h5 {
+    font-size: 22px;
+  }
+}

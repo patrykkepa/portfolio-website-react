@@ -11,7 +11,7 @@ const Poster = (props) => {
             
             
                 <div className="e-posterTitle">
-                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas ">👉</i>  
                     <h1>{props.title}</h1>
                 </div>
 

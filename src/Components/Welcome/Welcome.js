@@ -16,13 +16,13 @@ $(document).ready(() => {
   setTimeout(() => {
     new TypeIt('#example1', {
       // strings: ["Hello, I am glad you are here.", "Please take a look at my portfolio."],
-      speed: 60,
+      speed: 30,
       breakLines: true,
       autoStart: false,
       afterComplete(instance) {
         setTimeout(() => {
           $('.e-welcomeLink-sectionAbout').addClass('welcomeLink--animated');
-        }, 100);
+        }, 500);
       },
     })
       .type('Hi there! ')
@@ -30,7 +30,7 @@ $(document).ready(() => {
       .break()
       .options({ speed: 40 })
       .type('Please, check my portfolio.');
-  }, 900); // END
+  }, 200); // END
 
 
   // {WELCOME} TYPING ANIMATION, po aktywowaniu linkiem
@@ -39,21 +39,21 @@ $(document).ready(() => {
     setTimeout(() => {
       new TypeIt('#example1', {
         // strings: ["Hello, I am glad you are here.", "Please take a look at my portfolio."],
-        speed: 60,
+        speed: 30,
         breakLines: true,
         autoStart: false,
         afterComplete(instance) {
           setTimeout(() => {
             $('.e-welcomeLink-sectionAbout').addClass('welcomeLink--animated');
-          }, 100); // END
+          }, 500); // END
         },
       })
         .type('Hi there!')
-        .pause(100)
+        .pause(1000)
         .break()
         .options({ speed: 40 })
         .type('Please, check my portfolio.');
-    }, 900);
+    }, 200);
   }); // END
 });
 

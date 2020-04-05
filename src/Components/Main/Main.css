@@ -1,68 +1,88 @@
 button:active {
   outline: none !important;
-  border: none !important; }
+  border: none !important;
+}
 
 button:focus {
-  outline: 0px !important; }
+  outline: 0px !important;
+}
 
 main {
   text-align: left;
   min-height: 100vh;
   max-width: 810px;
   padding: 150px 0 0 0;
-  margin: 0 auto; }
-  main h1 {
-    font-family: 'Karla', sans-serif;
-    font-size: 30px;
-    font-weight: 700; }
-  main h2 {
-    font-family: 'Karla', sans-serif;
-    font-size: 30px;
-    font-weight: 700; }
-  main h3 {
-    font-family: 'Karla', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px; }
-  main h6 {
-    font-family: 'Merriweather', 'Karla', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin: 5px 0 0px 0;
-    line-height: 40px;
-    color: #7f7f7f; }
-  main p {
-    font-family: 'Merriweather', 'Karla', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin: 20px 0 20px 0;
-    line-height: 45px;
-    color: #7f7f7f; }
+  margin: 0 auto;
+}
+
+main h1 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+main h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+main h6 {
+  font-family: 'Merriweather', 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 5px 0 0px 0;
+  line-height: 40px;
+  color: #7f7f7f;
+}
+
+main p {
+  font-family: 'Merriweather', 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 20px 0 20px 0;
+  line-height: 45px;
+  color: #7f7f7f;
+}
 
 .main--out {
   transform: translateX(-25px);
-  opacity: 0; }
+  opacity: 0;
+}
 
 .main--in {
   transform: translateX(25px);
-  opacity: 0; }
+  opacity: 0;
+}
 
 .main--open {
   transform: translateX(0px);
   opacity: 1;
-  transition: all 100ms; }
+  transition: all 100ms;
+}
 
 @media only screen and (max-width: 480px) {
   main {
-    padding: 100px 0 0 0; }
+    padding: 100px 0 0 0;
+  }
 
   h1 {
-    font-size: 28px !important; }
+    font-size: 28px !important;
+  }
 
   p {
     font-size: 15px !important;
-    line-height: 43px !important; } }
+    line-height: 43px !important;
+  }
+}

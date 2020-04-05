@@ -7,7 +7,7 @@ const Form = (props) => {
     return (
         <section className="sectionForm">
     
-        <h1> You can catch me at:</h1>
+        <h1> You can catch me at</h1>
         <a href="mailto:patrykkepa.work@gmail.com"><h5>patrykkepa.work@gmail.com</h5></a>
 
         <h2><span role="img" aria-label="rocket"></span> To see more:</h2>
