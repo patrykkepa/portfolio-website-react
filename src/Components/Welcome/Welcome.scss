@@ -22,18 +22,18 @@
         color: $color-welcome-arrow;
         font-size: 50px;
     }
-    
+
 }
 
-.welcomeLink--animated{
+.welcomeLink--animated {
     opacity: 1;
     margin-left: 50px;
     transition: all 900ms;
 }
 
 
-@media only screen and (max-width: 480px){
-    #example1{
+@media only screen and (max-width: 480px) {
+    #example1 {
         margin-top: 0px;
         padding: 0 20px;
         font-size: 10vw !important;
@@ -41,7 +41,8 @@
         line-height: 25vw !important;
 
     }
-    .e-welcomeLink-sectionAbout{
+
+    .e-welcomeLink-sectionAbout {
         margin-top: 20px;
     }
 }
