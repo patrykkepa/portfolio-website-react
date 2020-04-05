@@ -64,17 +64,18 @@ $(document).ready(function() {
 
 })
 
-
+ 
 
 
 const Nav = (props) => {
     return (
         <nav className="b-navigation">
-            <button className="hamburger hamburger--collapse" type="button">
-                <span className="hamburger-box">
-                    <span className="hamburger-inner"></span>
-                </span>
-            </button>
+                <button className="hamburger hamburger--collapse" type="button">
+                    <span className="hamburger-box">
+                        <span className="hamburger-inner"></span>
+                    </span>
+                </button>
+
             <div className="e-navigation">
             
                 <ul>
