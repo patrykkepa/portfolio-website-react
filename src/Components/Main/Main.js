@@ -2,10 +2,10 @@ import React from 'react';
 
 import { Route, Switch } from 'react-router-dom'
 
-import Welcome from '../Welcome/Welcome';
-import About from '../About/About';
-import Work from '../Work/Work';
-import Form from '../Form/Form';
+import Welcome from './Welcome/Welcome';
+import About from './About/About';
+import Work from './Work/Work';
+import Form from './Form/Form';
 
 import './Main.css';
 

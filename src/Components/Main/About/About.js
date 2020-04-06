@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Technology from '../Technology/Technology';
+import Technology from './Technology/Technology';
 
 import './About.css';
 

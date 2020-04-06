@@ -1,17 +1,18 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Merriweather', serif;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
 
-  ::selection {
-    background: #33aeff;
-    color: white;
-  }
-  ::-moz-selection {
-    background: #33aeff; 
-    color: white;
-  }
+::selection {
+  background: #33aeff;
+  color: white;
+}
+
+::-moz-selection {
+  background: #33aeff;
+  color: white;
+}
 
 
 
@@ -21,16 +22,19 @@ body {
   flex-direction: row;
   align-content: center;
 }
+
 @mixin flex-column-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 @mixin flex-column-spacebetween {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 @mixin flex-column-spacearound {
   display: flex;
   flex-direction: column;
@@ -56,24 +60,25 @@ $color-mobileFooter-link: #0098ff;
 
 
 //MEDIA QUERIES
-$breakpoints: (
-    "phone":        400px,
-    "phablet":      560px,
-    "tablet":       768px,
-    "tablet-wide":  1024px,
-    "desktop":      1248px,
-    "desktop-wide": 1440px
-);
+$breakpoints: ("phone": 400px,
+  "phablet": 560px,
+  "tablet": 768px,
+  "tablet-wide": 1024px,
+  "desktop": 1248px,
+  "desktop-wide": 1440px);
+
 @mixin mq($width, $type: min) {
-    @if map_has_key($breakpoints, $width) {
-        $width: map_get($breakpoints, $width);
-        @if $type == max {
-            $width: $width - 1px;
-        }
-        @media only screen and (#{$type}-width: $width) {
-            @content;
-        }
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+
+    @if $type==max {
+      $width: $width - 1px;
     }
+
+    @media only screen and (#{$type}-width: $width) {
+      @content;
+    }
+  }
 }
 
 
