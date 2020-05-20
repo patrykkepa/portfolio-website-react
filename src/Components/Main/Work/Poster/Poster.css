@@ -23,6 +23,10 @@
   background: linear-gradient(45deg, #585764, #8c8a9c);
 }
 
+#e-posterBackground--salaryManager {
+  background: linear-gradient(45deg, rgba(250, 105, 1, 1), rgba(255, 205, 0, 1));
+}
+
 .e-posterImage {
   background-size: cover;
   -webkit-box-shadow: 0px 25px 52px -3px #002d759d;
@@ -42,6 +46,10 @@
 
 .e-posterImage--StreetwearShop {
   background-image: url(./img/streetwearShop.png);
+}
+
+.e-posterImage--salaryManager {
+  background-image: url(./img/salaryManager.png);
 }
 
 .posterImage--open {

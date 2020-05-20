@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../waiters-salary"
+		},
+		{
+			"path": "../../../../salary-manager"
+		}
+	],
+	"settings": {}
+}

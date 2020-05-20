@@ -43,11 +43,41 @@ class Work extends React.Component {
                 $('#e-posterDetails--shopStreetwear').toggleClass('o-posterDetails--visible');
             },400)
         });
+        $('#e-posterBackground--salaryManager').find('.e-posterTitle').on('click', function(){
+            $('#e-posterBackground--salaryManager').find('.e-posterImage').toggleClass('posterImage--open');
+
+            $('html, body').animate({
+                scrollTop:  $('#e-posterBackground--salaryManager').offset().top - 200
+            }, 400);
+            
+            setTimeout(function() {
+                $('#e-posterDetails--salaryManager').toggleClass('o-posterDetails--displayed');
+            },200)
+            setTimeout(function() {
+                $('#e-posterDetails--salaryManager').toggleClass('o-posterDetails--visible');
+            },400)
+        });
     }
 
     render() {
         return(
             <section className="sectionWork">
+                <Poster 
+                        id="e-posterBackground--salaryManager" 
+                        title="Salary Manager" 
+                        icon={<div className="e-posterIcon"><i className="fab fa-react"></i><div className="label">React.js</div></div>}
+                        text="Salary Manager web app written in React.js"
+                        posterImage="e-posterImage e-posterImage--salaryManager"
+                    />
+                <PosterDetails 
+                    id="e-posterDetails--salaryManager"
+                    title="Visit"
+                    href="https://patrykkepa.github.io/salary-manager/"
+                    hrefDesc="https://patrykkepa.github.io/salary-manager/"
+                    hrefGit="https://github.com/patrykkepa/salary-manager"
+                    stack={<p><h6>React.js</h6><h6>React Router</h6><h6>Firebase</h6></p>}
+                    info={<p>I wanted to create a web application that would be inspired by the needs of the environment that I know. It is an application that helps waiters track their earnings over the years, months and days.<br></br>It is a CRUD application based on pure React.js and Firebase database.</p>}
+                />
                 <Poster 
                     id="e-posterBackground--myPortfolio" 
                     title="My Portfolio" 

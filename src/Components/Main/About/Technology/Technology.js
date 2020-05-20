@@ -80,6 +80,19 @@ const Technology = (props) => {
                             <h6>It is time to learn more from others</h6>
                         </div>
                     </div>
+                    <div className="o-card third">
+                        <div className="e-card-title">
+                            <h4>DATABASE</h4>
+                            <h5>FIREBASE</h5>
+                        </div>
+                        <div className="e-card-body">
+                            <p>I used Firebase in a CRUD application with the option of creating an account, logging in, logging out, deleting an account and manipulation of data stored in the database.</p>
+                        </div>
+                        <div className="e-card-footer">
+                            <h6>I worked with Realtime Database.</h6>
+                            <h6>No I want to know Cloud Firestore.</h6>
+                        </div>
+                    </div>
                 </div>
             </section>
         </Fragment>
