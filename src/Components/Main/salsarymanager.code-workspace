@@ -8,7 +8,24 @@
 		},
 		{
 			"path": "../../../../salary-manager"
+		},
+		{
+			"path": "../../../../clever-programmers/messenger-clone"
+		},
+		{
+			"path": "../../../../clever-programmers/instagram-clone"
+		},
+		{
+			"path": "../../../../clever-programmers/netflix-clone"
+		},
+		{
+			"path": "../../../../clever-programmers/amazon-clone"
+		},
+		{
+			"path": "../../../../../practise/test/firestore-context-reducer"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"prettier.trailingComma": "all"
+	}
 }

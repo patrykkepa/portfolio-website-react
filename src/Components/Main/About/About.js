@@ -24,7 +24,7 @@ const About = (props) => {
                 <div className="e-about-left"></div>
                 <div className="e-about-right">
                     <h1><span role="img" aria-label="boy">👨🏻‍💻</span> Who am I</h1>
-                    <p>My name is Patryk Kępa and I'am 23 years old enthusiast of art and technology. After getting into architecture studies I re-evaluated my priorities and I decided to become a web developer. Now I'm trying to teach myself as much as I can and get a job as a junior react developer.</p> 
+                    <p>My name is Patryk Kępa and I'am 27 years old Computer Science student. After getting into architecture studies I re-evaluated my priorities and I decided to become a web developer. Now, using knowledge gained at univeristy and teaching Javascript by myself I'am trying to become a programmer.</p> 
                 </div>
             </div>
             <div className="e-about">
@@ -48,7 +48,7 @@ const About = (props) => {
                 <div className="e-about-right">
                     
                     <h1><span role="img" aria-label="wheel">⚙️</span> Tools / workflow</h1>
-                    <p>Even though I'm learning on my own I do not close myself in my world, but I learn from the best and gets to know the programming environment through YouTube videos, React and Javascript newsletter's, Wes Boss and other podcasts. Preparing to work in a team I use Git and GitHub, Webpack, ESLint on my daily basis.</p> 
+                    <p>Even though I'm learning on my own I do not close myself in my world, but I learn from the best and gets to know the programming environment through Udemy, YouTube videos, React and Javascript newsletter's, and podcasts. Preparing to work in a team I use Git and GitHub, Webpack, ESLint on my daily basis.</p> 
                 </div>
             </div>
 
